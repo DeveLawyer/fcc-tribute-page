@@ -17,7 +17,8 @@ div#main {
   margin: 40px auto;
   padding: 30px 60px;
   text-align: justify;
-  width: 90%;
+  max-width: 700px;
+  width: 80%;
 }
 
 h3,
@@ -53,6 +54,7 @@ header {
 #img-div {
   margin: 20px auto;
   width: 70%;
+  min-width: fit-content;
 }
 
 #image {
